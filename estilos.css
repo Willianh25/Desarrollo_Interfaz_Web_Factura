@@ -1,0 +1,28 @@
+body { /* Estilo general para el cuerpo del documento */
+    font-family: Arial, sans-serif;  /* Tipo de Fuente */
+    background-color: #f9f9f9; /* Fondo */
+    margin: 40px; /* Separación del contenido de los bordes */
+}
+
+table { /* Estilo general para todas las tablas */
+    width: 60%; /* Ancho del cuerpo */
+    border-collapse: collapse; /* Bordes unidos entre celdas */
+    margin-bottom: 20px; /* Separación inferior entre tablas */
+    background-color: #ffffff; /* Fondo para la tabla */
+}
+
+th, td { /* Estilo para todas las celdas y encabezados */
+    border: 1px solid #999999; /* Borde gris claro */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+th { /* Estilo específico para encabezados */
+    background-color: #eeeeee; /* Fondo gris claro */
+    font-weight: bold; /*Negrita */
+    font-size: 18px; /* Tamaño de letra */
+}
+
+.tabla_empresa {  /* Arreglos para la tabla de datos de la empresa */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
