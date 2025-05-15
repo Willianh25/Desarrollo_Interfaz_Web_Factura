@@ -1,16 +1,26 @@
+.hoja-factura {  /* Marco Hoja */
+    background-color: white; /* Fondo blanco como hoja de papel */
+    border: 2px solid #000000; /* Borde negro visible */
+    padding: 30px; /* Espacio interno entre borde y contenido */
+    width: 800px; /* Tamaño similar a una hoja A4 */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.1); /* Sombra para profundidad */
+    margin: 40px; /* Centrado en pantalla */
+}
+
 body { /* Estilo general para el cuerpo del documento */
     font-family: Arial, sans-serif;  /* Tipo de Fuente */
     background-color: #f9f9f9; /* Fondo */
     margin: 40px; /* Separación del contenido de los bordes */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Organización en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
 }
 
 table { /* Estilo general para todas las tablas */
-    width: 60%; /* Ancho del cuerpo */
+    width: 100%; /* Ancho del cuerpo */
     border-collapse: collapse; /* Bordes unidos entre celdas */
-    margin-bottom: 20px; /* Separación inferior entre tablas */
+    margin-bottom: 10px; /* Separación inferior entre tablas */
     background-color: #ffffff; /* Fondo para la tabla */
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -19,7 +29,7 @@ th, td { /* Estilo para todas las celdas y encabezados */
     border: 1px solid #999999; /* Borde gris claro */
     padding: 4px; /* Espaciado interno */
     text-align: left; /* Alineación del texto a la izquierda */
-    font-size: 16px;
+    font-size: 16px; /* Tamaño de letra */
 }
 
 th { /* Estilo específico para encabezados */
@@ -29,5 +39,5 @@ th { /* Estilo específico para encabezados */
 }
 
 .tabla_empresa, .tabla_cliente {  /* Arreglos para la tabla de datos de la empresa */
-    margin-top: 10px;
+    margin-top: 10px; /*Separación Superior */
 }
