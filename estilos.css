@@ -2,6 +2,9 @@ body { /* Estilo general para el cuerpo del documento */
     font-family: Arial, sans-serif;  /* Tipo de Fuente */
     background-color: #f9f9f9; /* Fondo */
     margin: 40px; /* Separación del contenido de los bordes */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 table { /* Estilo general para todas las tablas */
@@ -9,20 +12,22 @@ table { /* Estilo general para todas las tablas */
     border-collapse: collapse; /* Bordes unidos entre celdas */
     margin-bottom: 20px; /* Separación inferior entre tablas */
     background-color: #ffffff; /* Fondo para la tabla */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 th, td { /* Estilo para todas las celdas y encabezados */
     border: 1px solid #999999; /* Borde gris claro */
-    padding: 10px; /* Espaciado interno */
+    padding: 4px; /* Espaciado interno */
     text-align: left; /* Alineación del texto a la izquierda */
+    font-size: 16px;
 }
 
 th { /* Estilo específico para encabezados */
-    background-color: #eeeeee; /* Fondo gris claro */
+    background-color: #dce6f1; /* Fondo */
     font-weight: bold; /*Negrita */
     font-size: 18px; /* Tamaño de letra */
 }
 
-.tabla_empresa {  /* Arreglos para la tabla de datos de la empresa */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+.tabla_empresa, .tabla_cliente {  /* Arreglos para la tabla de datos de la empresa */
+    margin-top: 10px;
 }
