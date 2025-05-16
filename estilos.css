@@ -69,3 +69,32 @@ th { /* Estilo específico para encabezados */
     background-color: #f8d9b6;
 }
 
+/* Estilo para la Tabla de información adicional */
+.tabla_adicional {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #b5d8b5;
+    background-color: #f3fef3;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabla_adicional th {
+    background-color: #c9ebc9;
+    font-size: 18px;
+    padding: 6px;
+    text-align: center;
+}
+
+.tabla_adicional td {
+    border: 1px solid #a5cba5;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.mensaje-final {
+    text-align: center;
+    font-weight: bold;
+    background-color: #d5f0d5;
+    font-size: 16px;
+}
+
