@@ -52,3 +52,20 @@ th { /* Estilo específico para encabezados */
     background-color: #f8d9b6; /* Color de fondo para los encabezados */
     color: #333; /* Color del texto en encabezados */
 }
+
+/* Quita bordes de las primeras columnas en las filas finales de la tabla de productos */
+.sin-borde {
+    border: none !important;
+    background-color: transparent;
+}
+
+/* Estilo para las celdas de etiquetas de totales */
+.etiqueta-total {
+    text-align: right;
+    font-weight: bold;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-top: 1px solid #999;
+    background-color: #f8d9b6;
+}
+
