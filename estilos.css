@@ -41,3 +41,14 @@ th { /* Estilo específico para encabezados */
 .tabla_empresa, .tabla_cliente {  /* Arreglos para la tabla de datos de la empresa */
     margin-top: 10px; /*Separación Superior */
 }
+
+.tabla_productos {
+    margin-top: 20px; /* Espacio superior respecto a otras tablas */
+    background-color: #fdf7f0; /* Color de fondo */
+    border: 2px solid #e0b089; /* Borde */
+}
+
+.tabla_productos th {
+    background-color: #f8d9b6; /* Color de fondo para los encabezados */
+    color: #333; /* Color del texto en encabezados */
+}

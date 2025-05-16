@@ -9,9 +9,9 @@
 <div class="hoja-factura">
     <!--Datos de la empresa-->
     <table class="tabla_empresa"> <!--Se crea la tabla para mostrar los datos de la empresa-->
-        <colgroup>
-        <col style="width: 30%;">
-        <col style="width: 70%;">
+        <colgroup> <!-- Establece el ancho fijo de las columnas -->
+        <col style="width: 30%;"> <!-- Columna izquierda: etiquetas -->
+        <col style="width: 70%;"> <!-- Columna derecha: valores -->
         </colgroup>
         <tr>
             <th colspan="2">Datos de la Empresa</th> <!--Se crea el encabezado de la tabla, que contiene 2 columnas-->
@@ -69,6 +69,41 @@
             <td>carlos_l@gmail.com</td>
         </tr>
     </table>
+
+<br>
+
+<!-- Tabla de productos comprados -->
+<table class="tabla_productos">
+    <thead>
+        <tr>
+            <!-- Encabezados de cada columna -->
+            <th>Código</th>
+            <th>Descripción</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Primer producto -->
+        <tr>
+            <td>001</td>
+            <td>Mouse inalámbrico</td>
+            <td>2</td>
+            <td>$10.00</td>
+            <td>$20.00</td>
+        </tr>
+
+        <!-- Segundo producto -->
+        <tr>
+            <td>002</td>
+            <td>Teclado mecánico</td>
+            <td>1</td>
+            <td>$45.00</td>
+            <td>$45.00</td>
+        </tr>
+    </tbody>
+</table>
 </div>
 </body>
 </html>
